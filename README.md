@@ -5,7 +5,7 @@
 virtualenv env
 .\env\Scripts\activate  (for window os)
 source env/bin/activate (for max && linux os)
-pip install -r requirements.txt
+pip install -r requiements.txt
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createadminuser
